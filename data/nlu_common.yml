@@ -1,0 +1,19 @@
+version: "3.0"
+nlu:
+  - intent: greet
+    examples: |
+      - 你好
+      - hello
+      - hi
+      - 喂
+      - 在么
+  - intent: goodbye
+    examples: |
+      - 拜拜
+      - 再见
+      - 拜
+      - 退出
+      - 结束
+      - 明天见
+      - 下次再见
+      - 有缘再见

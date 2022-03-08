@@ -15,6 +15,9 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     learning_rate: 0.001
+  - name: FallbackClassifier
+    threshold: 0.4
+    ambiguity_threshold: 0.1
   - name: EntitySynonymMapper
 
 policies:
@@ -24,3 +27,4 @@ policies:
   - name: Rulepolicy
     core_fallback_threshold: 0.3
     core_fallback_action_name: "action_default_fallback"
+    enable_fallback_prediction: True
