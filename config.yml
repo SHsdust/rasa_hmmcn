@@ -3,26 +3,24 @@ recipe: default.v1
 language: zh
 
 pipeline:
-  - name: Jiebatokenizer
-  - name: Languagemodelfeaturizer
+  - name: JiebaTokenizer
+  - name: LanguageModelFeaturizer
     model_name: bert
     model_weights: bert-base-chinese
-  - name: Regexfeaturizer
-  - name: DIetclassifier
-    epochs: 1000
+  - name: RegexFeaturizer
+  - name: DIETClassifier
+    epochs: 100
     learning_rate: 0.001
     tensorboard_log_directory: ./log
-  - name: Responseselector
-    epochs: 1000
+  - name: ResponseSelector
+    epochs: 100
     learning_rate: 0.001
-  - name: Fallbackclassifier
-    threshold: 0.4
-    ambiguity_threshold: 0.1
-  - name: Entitysynonymmapper
+  - name: EntitySynonymMapper
 
 policies:
   - name: Memoizationpolicy
+    max_history:
   - name: TEDpolicy
-  - nmae: Rulepolicy
+  - name: Rulepolicy
     core_fallback_threshold: 0.3
     core_fallback_action_name: "action_default_fallback"
