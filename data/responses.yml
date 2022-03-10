@@ -1,6 +1,6 @@
 version: "3.0"
-responses:
-   utter_chitchat/ask_name:
-     - text: gun
-   utter_chitchat/ask_weather:
-     - text: lai
+# responses:
+#    utter_chitchat/ask_name:
+#      - text: gun
+#    utter_chitchat/ask_weather:
+#      - text: lai

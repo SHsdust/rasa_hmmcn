@@ -1,10 +1,10 @@
 version: "3.0"
 
-nlu:
-  - intent: chitchat/ask_name
-    examples: |
-      你好
-      你好啊
+# nlu:
+#   - intent: chitchat/ask_name
+#     examples: |
+#       你好
+#       你好啊
 
-  - intent: chitchat/ask_weather
-    examples: |
+#   - intent: chitchat/ask_weather
+#     examples: |

@@ -1,0 +1,70 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-parking_num",
+      "2": "I-parking_num",
+      "3": "L-parking_num",
+      "4": "U-parking_num",
+      "5": "B-room_id",
+      "6": "I-room_id",
+      "7": "L-room_id",
+      "8": "U-room_id",
+      "9": "B-time",
+      "10": "I-time",
+      "11": "L-time",
+      "12": "U-time",
+      "13": "B-topic",
+      "14": "I-topic",
+      "15": "L-topic",
+      "16": "U-topic",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-parking_num": 1,
+      "I-parking_num": 2,
+      "L-parking_num": 3,
+      "U-parking_num": 4,
+      "B-room_id": 5,
+      "I-room_id": 6,
+      "L-room_id": 7,
+      "U-room_id": 8,
+      "B-time": 9,
+      "I-time": 10,
+      "L-time": 11,
+      "U-time": 12,
+      "B-topic": 13,
+      "I-topic": 14,
+      "L-topic": 15,
+      "U-topic": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  },
+  {
+    "tag_name": "role",
+    "ids_to_tags": {
+      "1": "B-end_time",
+      "2": "I-end_time",
+      "3": "L-end_time",
+      "4": "U-end_time",
+      "5": "B-start_time",
+      "6": "I-start_time",
+      "7": "L-start_time",
+      "8": "U-start_time",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-end_time": 1,
+      "I-end_time": 2,
+      "L-end_time": 3,
+      "U-end_time": 4,
+      "B-start_time": 5,
+      "I-start_time": 6,
+      "L-start_time": 7,
+      "U-start_time": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

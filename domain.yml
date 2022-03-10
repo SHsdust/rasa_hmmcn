@@ -1,38 +1,47 @@
 version: "3.0"
 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
 intents:
   - greet
   - goodbye
-  - medicine
-  - medical_department
-  - medical_hospital
+  - affirm
+  - deny
+  - thanks
+  - inform
 
-# responses:
-#   utter_greet:
-#   - text: "Hey! How are you?"
+entities:
+  - time
+  - room_id
+  - topic
+  - parking_num
 
-#   utter_cheer_up:
-#   - text: "Here is something to cheer you up:"
-#     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-#   utter_did_that_help:
-#   - text: "Did that help you?"
+slots:
+  time:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: time
+  room_id:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: room_id
+  topic:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: topic
 
-#   utter_happy:
-#   - text: "Great, carry on!"
-
-#   utter_goodbye:
-#   - text: "Bye"
-
-#   utter_iamabot:
-#   - text: "I am a bot, powered by Rasa."
-
-# session_config:
-#   session_expiration_time: 60
-#   carry_over_slots_to_new_session: true
-
-forms:
-  weather_form:
-    required_slots:
-      - address
-      - date-time
+  parking_num:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: parking_num
