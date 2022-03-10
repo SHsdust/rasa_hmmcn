@@ -1,7 +1,5 @@
 recipe: default.v1
-
 language: zh
-
 pipeline:
   - name: JiebaTokenizer
   - name: LanguageModelFeaturizer
