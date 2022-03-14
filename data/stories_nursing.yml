@@ -1,0 +1,18 @@
+version: "3.0"
+stories:
+  - story: ask service & cost
+    steps:
+      - intent: ask_service
+      - action: action_intro_service
+      - intent: ask_cost
+      - action: ask_service_cost
+      - action: action_inform_service_cost
+  - story: ask service
+    steps:
+      - intent: ask_service
+      - action: action_intro_service
+
+  - story: ask service cost
+    steps:
+      - action: ask_service_cost
+      - action: action_inform_service_cost
