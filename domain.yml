@@ -11,21 +11,38 @@ intents:
   - deny
   - thanks
   - inform
+  - reserve
+  - cancel_reserve
+  - reserve_parking
+  - check_reservation
+  - check_room_available
+  - ask_service
+  - ask_service_cost
+  - reserve_service
 
 entities:
   - time
   - room_id
   - topic
   - parking_num
+  - service
 
 
 slots:
-  time:
+  room_start_time:
     type: text
     influence_conversation: false
     mappings:
       - type: from_entity
         entity: time
+        role: start_time
+  room_end_time:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: time
+        role: end_time
   room_id:
     type: text
     influence_conversation: false
@@ -45,3 +62,24 @@ slots:
     mappings:
       - type: from_entity
         entity: parking_num
+  service:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: service
+
+actions:
+  - action_reserve_room
+  - action_reserve_service
+
+forms:
+  reserve_form:
+    required_slots:
+      - room_start_time
+      - room_end_time
+      - topic
+      - room_id
+  reserve_service_form:
+    required_slots:
+      - service

@@ -1,7 +1,35 @@
 version: "3.0"
 
-# rules:
-#   - rule: Response Selector
-#     steps:
-#       - intent: chitchat
-#       - action: utter_chitchat
+rules:
+  - rule: reserve room
+    steps:
+      - intent: reserve
+      - action: reserve_form
+      - active_loop: reserve_form
+  - rule: submit form
+    condition:
+      - active_loop: reserve_form
+    steps:
+      - action: reserve_form
+      # - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_reserve_room
+  - rule: reserve service form
+    steps:
+      - intent: reserve_service
+      - action: reserve_service_form
+      - active_loop: reserve_service_form
+  - rule: submit form
+    condition:
+      - active_loop: reserve_service_form
+    steps:
+      - action: reserve_service_form
+      # - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_reserve_service
+  # - rule: Response Selector
+  #   steps:
+  #     - intent: chitchat
+  #     - action: utter_chitchat
