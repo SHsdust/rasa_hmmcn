@@ -1,0 +1,10 @@
+version: "3.0"
+stories:
+  - story: check user reservation
+    steps:
+      - intent: check_reservation
+      - action: action_check_user_reservation
+  - story: check available room
+    steps:
+      - intent: check_room_availabe
+      - action: action_check_available_room

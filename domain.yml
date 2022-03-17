@@ -19,6 +19,16 @@ intents:
   - ask_service
   - ask_service_cost
   - reserve_service
+  - set_temp
+  - check_temp
+  - check_humi
+  - change_mode
+  - check_mode
+  - timer
+  - open_close
+  - register
+  - ask_when
+  - list_doctor
 
 entities:
   - time
@@ -26,6 +36,11 @@ entities:
   - topic
   - parking_num
   - service
+  - furniture
+  - temp
+  - mode
+  - department
+  - reserve_no
 
 
 slots:
@@ -68,10 +83,56 @@ slots:
     mappings:
       - type: from_entity
         entity: service
+  furniture:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: furniture
+  temp:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: temp
+  mode:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: mode
+  time2close:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: time2close
+  department:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: department
+  reserve_no:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: reserve_no
+  time:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: time
 
 actions:
   - action_reserve_room
+  - action_check_user_reservation
+  - action_check_available_room
   - action_reserve_service
+  - action_inform_service_cost
+  - action_intro_service
 
 forms:
   reserve_form:

@@ -11,7 +11,7 @@ rules:
       - active_loop: reserve_form
     steps:
       - action: reserve_form
-      # - active_loop: null
+      - active_loop: null
       - slot_was_set:
           - requested_slot: null
       - action: action_reserve_room
@@ -25,7 +25,7 @@ rules:
       - active_loop: reserve_service_form
     steps:
       - action: reserve_service_form
-      # - active_loop: null
+      - active_loop: null
       - slot_was_set:
           - requested_slot: null
       - action: action_reserve_service

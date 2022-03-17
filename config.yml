@@ -19,10 +19,10 @@ pipeline:
   - name: EntitySynonymMapper
 
 policies:
-  - name: Memoizationpolicy
+  - name: MemoizationPolicy
     max_history:
-  - name: TEDpolicy
-  - name: Rulepolicy
+  - name: TEDPolicy
+  - name: RulePolicy
     core_fallback_threshold: 0.3
     core_fallback_action_name: "action_default_fallback"
     enable_fallback_prediction: True

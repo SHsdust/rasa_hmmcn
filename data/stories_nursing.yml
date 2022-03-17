@@ -5,7 +5,7 @@ stories:
       - intent: ask_service
       - action: action_intro_service
       - intent: ask_cost
-      - action: ask_service_cost
+      - intent: ask_service_cost
       - action: action_inform_service_cost
   - story: ask service
     steps:
