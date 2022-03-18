@@ -1,6 +1,513 @@
 version: "3.0"
-# responses:
-#    utter_chitchat/ask_name:
-#      - text: gun
-#    utter_chitchat/ask_weather:
-#      - text: lai
+responses:
+  utter_faq/ask_name:
+    - text: 我是小天，你可以问我关于医疗、校园、养老院、家居和会场的一些问题，我会尽力帮你解答的
+
+  utter_faq/meeting_1:
+    - text: WiFi密码是一三五四七八八八六零。
+
+  utter_faq/meeting_2:
+    - text: 使用时间为早上八点到晚上八点半。
+
+  utter_faq/meeting_3:
+    - text: 会场提供有偿矿泉水。
+
+  utter_faq/meeting_4:
+    - text: 一楼门口进门右转就可以看到
+
+  utter_faq/meeting_5:
+    - text: 是免费的，不过您需要提前预约
+
+  utter_faq/meeting_6:
+    - text: 不可以
+
+  utter_faq/meeting_7:
+    - text: 有的
+
+  utter_faq/meeting_8:
+    - text: 会场共三个出口
+
+  utter_faq/meeting_9:
+    - text: 您好，您可以到二楼202室联系一下我们的工作人员，他们会帮忙解决这个问题
+
+  utter_faq/meeting_10:
+    - text: 会议室号加上字母w。
+
+  utter_faq/nursing_1:
+    - text: 临终关怀室能够提供人性化服务，营造家庭般的关爱氛围，最大限度地减轻临终老年人生理、精神上的痛苦和恐惧。
+
+  utter_faq/nursing_2:
+    - text: 一共有两个餐厅，我们养老院会供应优质的一日三餐。通常而言，日常餐饮包括鸡蛋、肉类、水果、粗粮，努力实现老年群体的营养均衡目标。
+
+  utter_faq/nursing_3:
+    - text: 好的，您请说。
+
+  utter_faq/nursing_4:
+    - text: 我们养老院的活动区和安静休息区是划分开的，两者互不影响。
+
+  utter_faq/nursing_5:
+    - text: 我们有单人间和双人间。
+
+  utter_faq/nursing_6:
+    - text: 一般从上午六点半举行到上午十点，您可以随时当场加入，没有时间上的硬性要求。
+
+  utter_faq/nursing_7:
+    - text: 请您沿着主路直走六十米，在第一个路口右拐，再直走四十米，即可到达活动大厅。
+
+  utter_faq/nursing_8:
+    - text: 请您沿着这条主路直走七十米，即可看到公共洗手间。
+
+  utter_faq/nursing_9:
+    - text: 有的，我们养老院的每个洗手间都配备了卫生纸。
+
+  utter_faq/nursing_10:
+    - text: 有的，天气允许的时候，我们养老院会在早晚带着老人们在小院里散散步。
+
+  utter_faq/nursing_11:
+    - text: 有的，我们养老院有健身锻炼室，您可以去那里锻炼身体。
+
+  utter_faq/nursing_12:
+    - text: 公共区域是老年人日常活动聚集的区域，主要是供老人娱乐和休息的。
+
+  utter_faq/nursing_13:
+    - text: 有的，对于压疮预防，我们配置了防褥疮脚跟垫、防褥疮气垫等等。
+
+  utter_faq/nursing_14:
+    - text: 建议您去活动大厅找到工作人员，工作人员会将您送达情感陪护中心。
+
+  utter_faq/nursing_15:
+    - text: 现在有诗词朗诵活动、老人操活动。
+
+  utter_faq/nursing_16:
+    - text: 不大，老人操的运动量是偏小的。
+
+  utter_faq/nursing_17:
+    - text: 不需要的，您直接到活动大厅即可参加。
+
+  utter_faq/nursing_18:
+    - text: 共有三类。我们分为全自理、半自理和完全不能自理。
+
+  utter_faq/nursing_19:
+    - text: 全自理护理，为老人建立档案每天两次测量血压体温并记录，按时提醒老人吃药，提供可以自理的老人健身打牌等活动。为老人洗衣服，每月带领老人洗澡理发。
+
+  utter_faq/nursing_20:
+    - text: 我们养老院会提供被套、床单、枕套。入住老人需自带棉被、枕心、脸盆、毛巾、水杯、香皂等日用品及四季换洗衣服。
+
+  utter_faq/nursing_21:
+    - text: 是的，这部分费用是包含在住宿费里的。
+
+  utter_faq/nursing_22:
+    - text: 不是的。除洗衣机外，其他设备均不收费。
+
+  utter_faq/nursing_23:
+    - text: 我们养老院有三个大食堂，除此之外，住宿部的每层楼都设有一个小餐厅。老人们吃饭是很方便的。
+
+  utter_faq/nursing_24:
+    - text: 是的，我们的活动大厅用于举办各类活动，供老人们休闲娱乐。
+
+  utter_faq/nursing_25:
+    - text: 今天是京剧观赏。
+
+  utter_faq/nursing_26:
+    - text: 我们这里有活动大厅、健身区、文娱区，都是打发时间的好去处。
+
+  utter_faq/nursing_27:
+    - text: 文娱区现在有剪纸活动，很受老人们的欢迎。
+
+  utter_faq/nursing_28:
+    - text: 请您沿着主路直行四十米，然后右转，再直行三十米，即可到达最近的公共食堂。
+
+  utter_faq/nursing_29:
+    - text: 会的，我们有各种各样的健身活动和文娱活动，每天都会组织身体健康状况允许的老人们参加活动。
+
+  utter_faq/nursing_30:
+    - text: 有的，比如剪纸、观看电视、下棋等。
+
+  utter_faq/nursing_31:
+    - text: 有的，我们养老院有分绿化区和花园区。
+
+  utter_faq/nursing_32:
+    - text: 坐地铁的话五站就到了，坐车大概需要十到十五分钟，还是挺近的。
+
+  utter_faq/nursing_33:
+    - text: 我们致力于打造家的温馨和医院的护理功能相结合的房间。
+
+  utter_faq/nursing_34:
+    - text: 床单三件套是一周换洗一次，对于有特殊情况的老年人我们会酌情增加频次，并且被子被褥我们会时隔半月晾晒一次。
+
+  utter_faq/nursing_35:
+    - text: 手工活动具体有折纸，剪纸，废旧物回收制作，编织中国结，剥豆子，看图搭积木等。
+
+  utter_faq/nursing_36:
+    - text: 我们养老院内的餐厅与老人生活空间就近，方便老人用餐，每层都设有本层小餐厅，不仅能方便老年人日常用餐，还作为他们日常活动的场所。同时，餐桌是易于组合的款式，可以组织活动时使用。此外，我们还划分有一些相对独立的餐位，如卡座，小型包间，以供有不同需求的老年人使用，也可以满足亲友聚餐的需求。
+
+  utter_faq/nursing_37:
+    - text: 护理院营养科针对每位入住患者的疾病特点和营养需求，需流质饮食或鼻饲患者制定合理的饮食方案，同时对一般卧床患者制定食疗方案，必要时给以喂食，对吞咽困难者给以缓慢进食，以防噎食呛咳。
+
+  utter_faq/nursing_38:
+    - text: 不是的，一个管家姐姐大概会负责四到五位老年人，在他们需求不冲突的情况下在不同时间段陪他们聊天。
+
+  utter_faq/nursing_39:
+    - text: 我们养老院的医生对老年病相关专业知识有丰富的经验，比如有心脑血管专业和中西医结合医生。
+
+  utter_faq/nursing_40:
+    - text: 有的，我们养老院尽力在每个空间都设置呼叫铃，确保服务全覆盖。
+
+  utter_faq/nursing_41:
+    - text: 我们养老院提供的是一日三餐。
+
+  utter_faq/nursing_42:
+    - text: 有的，我们设立了清真食品等少数民族单灶，对低糖、低盐、流质、鼻饲要求的老人也会制定个性化营业食谱方案。
+
+  utter_faq/nursing_43:
+    - text: 我们院接待重度、中度、轻度失能老人及自理老人。
+
+  utter_faq/nursing_44:
+    - text: 我们没有特殊划分，但比如说不同程度的失能老人他们会有活动区域局限。
+
+  utter_faq/nursing_45:
+    - text: 我们院院内配备活动室、阅读室、音乐厅、多媒体厅等各种休闲娱乐空间并组织丰富多彩的娱乐活动，如歌唱、棋牌、运动等，长辈们尽情地释放自我及发展兴趣，在活动中充实自我，保持健康活力。
+
+  utter_faq/nursing_46:
+    - text: 我们院对工作人员制定有严格的规章制度以及考核绩效标准，就算任职以后也可能面临淘汰辞退的风险。
+
+  utter_faq/nursing_47:
+    - text: 这个您放心，首先，老年大学项目是老人们自愿参加，其次，我们老年大学开设的课程内容是以老年人的意愿为中心的，并由教学专业人员为老人制定其相对水平的教学方式和难度。
+
+  utter_faq/nursing_48:
+    - text: 有的，年龄方面需男性年满六十周岁以上，女性年满五十五周岁以上；无传染病、精神疾病及严重暴力倾向等疾病；身体状况、生活习惯、性格取向、精神状态适合过集体生活。
+
+  utter_faq/nursing_49:
+    - text: 办理人入住时，需要提供安养人及委托人或担保人的身份证、户口本原件及复印件，安养人如带配偶一同入住需提供结婚证，安养人两寸近照三张;签订入院协议书并缴付入住费用后，由本院客服部人员安排入住。
+
+  utter_faq/nursing_50:
+    - text: 有的，探视时间是上午九点到十一点，下午十四点到十九点。
+
+  utter_faq/nursing_51:
+    - text: 是的，入住期间如安养人发生病情变化时，我院会根据病情调整护理等级。
+
+  utter_faq/nursing_52:
+    - text: 是的。
+
+  utter_faq/nursing_53:
+    - text: 没有的，安养人入住携带的各类生活用品均自行保管，因此建议做好标记。
+
+  utter_faq/nursing_54:
+    - text: 是的。
+
+  utter_faq/nursing_55:
+    - text: 委托人是在老人入住时确认的，负责老人入院期间日常事物的处理、费用、疾病治疗及突发事件的处理等。
+
+  utter_faq/nursing_56:
+    - text: 我院图书室里的图书大部分是根据统计得出的老人意愿购买的，小部分根据老年人的推荐书单采购。
+
+  utter_faq/nursing_57:
+    - text: 部分是的，也是采取自愿原则，由负责人和老人共同料理花园。
+
+  utter_faq/nursing_58:
+    - text: 书法方面我们教授隶书、草书、行书、楷书；绘画方面我们教授素描、油画、水彩画和写意画。
+
+  utter_faq/nursing_59:
+    - text: 我们院一共有四百张床位，入住率为百分之九十四点五。
+
+  utter_faq/nursing_60:
+    - text: 我们建筑面积为一万五千平方米，是完全够老人自在活动的。
+
+  utter_faq/nursing_61:
+    - text: 我们院是连锁机构，在全国范围内广泛分布的。
+
+  utter_faq/nursing_62:
+    - text: 安养人是可以服用自带药品的，但是必须告知本院医务人员，便于管理观察。
+
+  utter_faq/nursing_63:
+    - text: 这是属于我们的特色服务，作为医养结合养老院，我们和联合医院无缝对接，形成医疗绿色通道，护工费和餐费无需单另缴纳，二十四小时为老人健康护航。
+
+  utter_faq/nursing_64:
+    - text: 我们院有康复科，中医科，放射科，并配有输液室，氧吧和药房。
+
+  utter_faq/nursing_65:
+    - text: 没有的，但是配备有空调和集中供暖设备。
+
+  utter_faq/nursing_66:
+    - text: 老人都是可以自己调的，有遥控器和控制板。
+
+  utter_faq/nursing_67:
+    - text: 是的，工作人员和安养人都不准在院内吸烟。
+
+  utter_faq/nursing_68:
+    - text: 您放心，都有的。
+
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:
+  # utter_faq/medicine_:
+  #   - text:

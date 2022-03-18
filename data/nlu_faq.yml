@@ -10,7 +10,6 @@ nlu:
   - intent: faq/meeting_1
     examples: |
       - 这里的wifi密码是多少？
-      - WiFi的名字是什么？
 
   - intent: faq/meeting_2
     examples: |
@@ -20,33 +19,37 @@ nlu:
     examples: |
       - 我想问下会场提供饮用水吗？
 
-  - intent: faq/metting_3
+  - intent: faq/metting_4
     examples: |
       - 这里最近的洗手间在哪里？
 
-  - intent: faq/meeting_4
+  - intent: faq/meeting_5
     examples: |
       - 你们这里停车场免费开放吗？
 
-  - intent: faq/meeting_5
+  - intent: faq/meeting_6
     examples: |
       - 会议室的饮水机可以提供咖啡吗
 
-  - intent: faq/meeting_6
+  - intent: faq/meeting_7
     examples: |
       - 那个，目前疫情期间，会议室有隔位就做的要求吗
 
-  - intent: faq/meeting_7
+  - intent: faq/meeting_8
     examples: |
       - 请问会场一共有几个出口？
 
-  - intent: faq/meeting_8
+  - intent: faq/meeting_9
     examples: |
       - 这个会场的空调好像坏了
 
+  - intent: faq/meeting_10
+    examples: |
+      - WiFi的名字是什么？
+
   - intent: faq/nursing_1
     examples: |
-      - 给我简单介绍介绍呗。
+      - 给我简单介绍介绍临终关怀室o
 
   - intent: faq/nursing_2
     examples: |
@@ -149,173 +152,173 @@ nlu:
     examples: |
       - 我不太了解这里，现在有点无聊，你能给我推荐个打发时间的去处吗？
 
-  - intent: faq/nursing_25
+  - intent: faq/nursing_27
     examples: |
       - 你刚刚还说了有文娱区，那边有什么活动吗？人多点、热闹点的那种活动。
 
-  - intent: faq/nursing_26
+  - intent: faq/nursing_28
     examples: |
       - 那最近的公共食堂怎么走？
 
-  - intent: faq/nursing_27
+  - intent: faq/nursing_29
     examples: |
       - 这养老院会组织老人们参加些活动吗？
 
-  - intent: faq/nursing_28
+  - intent: faq/nursing_30
     examples: |
       - 嗯……有没有什么比较不费体力的活动呀？就是那种坐着不用动的活动。
 
-  - intent: faq/nursing_29
+  - intent: faq/nursing_31
     examples: |
       - 你们养老院有小花园吗？
 
-  - intent: faq/nursing_30
+  - intent: faq/nursing_32
     examples: |
       - 从养老院到市中心要多久呢？
 
-  - intent: faq/nursing_31
+  - intent: faq/nursing_33
     examples: |
       - 想问一下你们养老院里的房间布置是怎样的呢？
 
-  - intent: faq/nursing_32
+  - intent: faq/nursing_34
     examples: |
       - 听着不错，那床单被套大概多久换一次呢？
 
-  - intent: faq/nursing_33
+  - intent: faq/nursing_35
     examples: |
       - 手工活动具体包括哪些呢？
 
-  - intent: faq/nursing_34
+  - intent: faq/nursing_36
     examples: |
       - 我们家老年人比较注重的吃的方面，给我们介绍一下你们的餐厅吧。
 
-  - intent: faq/nursing_35
+  - intent: faq/nursing_37
     examples: |
       - 老人进食不方便的话会有人员辅助吗，怎么个辅助法呢？
 
-  - intent: faq/nursing_36
+  - intent: faq/nursing_38
     examples: |
       - 管家姐姐是单独负责一个人吗？
 
-  - intent: faq/nursing_37
+  - intent: faq/nursing_39
     examples: |
       - 请问一下你们医务室的医生水平是怎么样的的呢？
 
-  - intent: faq/nursing_38
+  - intent: faq/nursing_40
     examples: |
       - 确实挺人性化的，那你们卫生间里有呼叫铃吗，万一老人有突发情况怎么办。
 
-  - intent: faq/nursing_39
+  - intent: faq/nursing_41
     examples: |
       - 你们这个一天给老人制定的用餐次数是多少呢？
 
-  - intent: faq/nursing_40
+  - intent: faq/nursing_42
     examples: |
       - 哦哦，我们家老人信教，你们提供清真食品吗？
 
-  - intent: faq/nursing_41
+  - intent: faq/nursing_43
     examples: |
       - 请问你们主要接待的对象有哪些呢？
 
-  - intent: faq/nursing_42
+  - intent: faq/nursing_44
     examples: |
       - 不同的对象群体有活动区域划分吗？
 
-  - intent: faq/nursing_43
+  - intent: faq/nursing_45
     examples: |
       - 可以给我介绍一下你们院提供的文娱活动吗？
 
-  - intent: faq/nursing_44
+  - intent: faq/nursing_46
     examples: |
       - 万一工作人员在工作时出现怠慢疏忽的情况怎么办呢？
 
-  - intent: faq/nursing_45
+  - intent: faq/nursing_47
     examples: |
       - 想问一下这个老年大学会不会不太适合之前没有学习基础的一些老年人啊？
 
-  - intent: faq/nursing_46
+  - intent: faq/nursing_48
     examples: |
       - 请问你们养老院对入住有什么申请条件限制吗？
 
-  - intent: faq/nursing_47
+  - intent: faq/nursing_49
     examples: |
       - 办理入住手续的时候呢？
 
-  - intent: faq/nursing_48
+  - intent: faq/nursing_50
     examples: |
       - 请问入住你们养老院家属能有探望时间吗？
 
-  - intent: faq/nursing_49
+  - intent: faq/nursing_51
     examples: |
       没事，不用预约。那如果老人后来的身体情况有变化，他的护理等级还会重新评估吗？
 
-  - intent: faq/nursing_50
+  - intent: faq/nursing_52
     examples: |
       - 请问你们养老院在初次入住的时候会提供什么东西吗？
 
-  - intent: faq/nursing_51
+  - intent: faq/nursing_53
     examples: |
       - 哦哦行。那我们自己带的东西有指定存放地点吗？
 
-  - intent: faq/nursing_52
+  - intent: faq/nursing_54
     examples: |
       - 电视是可以点播的那种吗？
 
-  - intent: faq/nursing_53
+  - intent: faq/nursing_55
     examples: |
       - 委托人又是怎么确定的呢？
 
-  - intent: faq/nursing_54
+  - intent: faq/nursing_56
     examples: |
       - 确实，那你们的图书室里都有哪些图书呢？
 
-  - intent: faq/nursing_55
+  - intent: faq/nursing_57
     examples: |
       - 那还挺不错，听你提到有个空中花园，里面的花是老人自己养吗？
 
-  - intent: faq/nursing_56
+  - intent: faq/nursing_58
     examples: |
       - 书画教哪些书画呢？
 
-  - intent: faq/nursing_57
+  - intent: faq/nursing_59
     examples: |
       - 你们这个养老院收的人多吗？
 
-  - intent: faq/nursing_58
+  - intent: faq/nursing_60
     examples: |
       - 那你们面积有多大呢？
 
-  - intent: faq/nursing_59
+  - intent: faq/nursing_61
     examples: |
       - 你们养老院的规模大吗？
 
-  - intent: faq/nursing_60
+  - intent: faq/nursing_62
     examples: |
       - 想请问如果我们家老人有一些需要吃的特定的药你们养老院要负责吗？
 
-  - intent: faq/nursing_61
+  - intent: faq/nursing_63
     examples: |
       - 联合医院是什么意思呢？
 
-  - intent: faq/nursing_62
-    examples: |
-      -你们养老院大概可以治疗哪些病呢？
-
-  - intent: faq/nursing_63
-    examples: |
-      - 你们养老院有地暖吗？
-
   - intent: faq/nursing_64
     examples: |
-      - 空调这些的温度是你们统一调控还是老人可以自己调呢？
+      - 你们养老院大概可以治疗哪些病呢？
 
   - intent: faq/nursing_65
     examples: |
-      - 确实应该这样。还有就是你们养老院应该是禁烟的吧？
+      - 你们养老院有地暖吗？
 
   - intent: faq/nursing_66
     examples: |
-      - 请问你们楼层配的有电梯吗？
+      - 空调这些的温度是你们统一调控还是老人可以自己调呢？
+
+  - intent: faq/nursing_67
+    examples: |
+      - 确实应该这样。还有就是你们养老院应该是禁烟的吧？
+
+  - intent: faq/nursing_68
+    examples: |
+      - 请问你们楼层配的有电梯吗？n
 
   - intent: faq/medicine_1
     examples: |
