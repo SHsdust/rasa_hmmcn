@@ -1,0 +1,1161 @@
+version: "3.0"
+nlu:
+  - intent: faq/ask_name
+    examples: |
+      - 你叫什么
+      - 你是谁
+      - 你能做什么
+      - 你是哪个
+
+  - intent: faq/meeting_wifi
+    examples: |
+      - 这里的wifi密码是多少？
+      - WiFi的名字是什么？
+
+  - intent: faq/meeting_when_can_use
+    examples: |
+      - 会场什么时候能使用。
+
+  - intent: faq/meeting_ask_water_supply
+    examples: |
+      - 我想问下会场提供饮用水吗？
+
+  - intent: faq/metting_ask_toilet
+    examples: |
+      - 这里最近的洗手间在哪里？
+
+  - intent: faq/meeting_ask_parking_price
+    examples: |
+      - 你们这里停车场免费开放吗？
+
+  - intent: faq/meeting_ask_coffee_supply
+    examples: |
+      - 会议室的饮水机可以提供咖啡吗
+
+  - intent: faq/meeting_ask_seat_rule
+    examples: |
+      - 那个，目前疫情期间，会议室有隔位就做的要求吗
+
+  - intent: faq/meeting_ask_leave_entry
+    examples: |
+      - 请问会场一共有几个出口？
+
+  - intent: faq/meeting_report_repair
+    examples: |
+      - 这个会场的空调好像坏了
+
+  - intent: faq/nursing_
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |
+
+  - intent: faq/
+    examples: |

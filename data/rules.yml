@@ -29,7 +29,7 @@ rules:
       - slot_was_set:
           - requested_slot: null
       - action: action_reserve_service
-  # - rule: Response Selector
-  #   steps:
-  #     - intent: chitchat
-  #     - action: utter_chitchat
+  - rule: respond to faqs
+    steps:
+      - intent: faq
+      - action: utter_faq

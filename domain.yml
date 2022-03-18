@@ -5,6 +5,7 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
+  - faq
   - greet
   - goodbye
   - affirm
@@ -127,6 +128,7 @@ slots:
         entity: time
 
 actions:
+  - utter_faq
   - action_reserve_room
   - action_check_user_reservation
   - action_check_available_room
