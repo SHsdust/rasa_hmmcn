@@ -7,1155 +7,596 @@ nlu:
       - 你能做什么
       - 你是哪个
 
-  - intent: faq/meeting_wifi
+  - intent: faq/meeting_1
     examples: |
       - 这里的wifi密码是多少？
       - WiFi的名字是什么？
 
-  - intent: faq/meeting_when_can_use
+  - intent: faq/meeting_2
     examples: |
       - 会场什么时候能使用。
 
-  - intent: faq/meeting_ask_water_supply
+  - intent: faq/meeting_3
     examples: |
       - 我想问下会场提供饮用水吗？
 
-  - intent: faq/metting_ask_toilet
+  - intent: faq/metting_3
     examples: |
       - 这里最近的洗手间在哪里？
 
-  - intent: faq/meeting_ask_parking_price
+  - intent: faq/meeting_4
     examples: |
       - 你们这里停车场免费开放吗？
 
-  - intent: faq/meeting_ask_coffee_supply
+  - intent: faq/meeting_5
     examples: |
       - 会议室的饮水机可以提供咖啡吗
 
-  - intent: faq/meeting_ask_seat_rule
+  - intent: faq/meeting_6
     examples: |
       - 那个，目前疫情期间，会议室有隔位就做的要求吗
 
-  - intent: faq/meeting_ask_leave_entry
+  - intent: faq/meeting_7
     examples: |
       - 请问会场一共有几个出口？
 
-  - intent: faq/meeting_report_repair
+  - intent: faq/meeting_8
     examples: |
       - 这个会场的空调好像坏了
 
-  - intent: faq/nursing_
+  - intent: faq/nursing_1
     examples: |
+      - 给我简单介绍介绍呗。
 
-  - intent: faq/
+  - intent: faq/nursing_2
     examples: |
+      - 好的，我了解了。对了，可以再简单地介绍一下餐饮吗？
+      - 有几个餐厅呀？
 
-  - intent: faq/
+  - intent: faq/nursing_3
     examples: |
+      - 我想咨询个问题。
 
-  - intent: faq/
+  - intent: faq/nursing_4
     examples: |
+      - 我想问一下，这个养老院里好像有不少活动区，那这会打扰到老人的休息吗？
 
-  - intent: faq/
+  - intent: faq/nuring_5
     examples: |
+      - 一般的话，一个房间住几个人呀
 
-  - intent: faq/
+  - intent: faq/nursing_6
     examples: |
+      - 那这个老人操从几点钟开始呀？
 
-  - intent: faq/
+  - intent: faq/nursing_7
     examples: |
+      - 活动大厅往哪儿走啊？
 
-  - intent: faq/
+  - intent: faq/nursing_8
     examples: |
+      - 我找不到公共洗手间了。
 
-  - intent: faq/
+  - intent: faq/nusring_9
     examples: |
+      - 公共洗手间里有卫生纸吗？
 
-  - intent: faq/
+  - intent: faq/nursing_10
     examples: |
+      - 我挺喜欢散步的，我想问问，这儿有啥集体散步的活动吗？
 
-  - intent: faq/
+  - intent: faq/nursing_11
     examples: |
+      - 那要是天气不好的时候呢？有地方锻炼锻炼身体吗？
 
-  - intent: faq/
+  - intent: faq/nusring_12
     examples: |
+      - 我刚才看到路标上有个“公共区域”，这是个什么地方？
 
-  - intent: faq/
+  - intent: faq/nursing_13
     examples: |
+      - 我想问问，这个养老院的基础配置里面，有什么是专门用来预防压疮的吗?
 
-  - intent: faq/
+  - intent: faq/nusring_14
     examples: |
+      - 情感陪护中心？这个地方在哪里？
 
-  - intent: faq/
+  - intent: faq/nursing_15
     examples: |
+      - 我想问问现在有什么活动在活动大厅举行吗？
 
-  - intent: faq/
+  - intent: faq/nursing_16
     examples: |
+      - 老人操运动量大吗？
 
-  - intent: faq/
+  - intent: faq/nursing_17
     examples: |
+      - 剪纸小游戏？这个需要提前报名吗？
 
-  - intent: faq/
+  - intent: faq/nursing_18
     examples: |
+      - 你们这里的护理门类一共有几个？
 
-  - intent: faq/
+  - intent: faq/nursing_19
     examples: |
+      - 可以具体说一下全自理吗？
 
-  - intent: faq/
+  - intent: faq/nursing_20
     examples: |
+      - 老人入住的话，需要自己带什么东西过来吗？你们会提供日常用品吗？
 
-  - intent: faq/
+  - intent: faq/nursing_21
     examples: |
+      - 那使用洗衣机是自费的吗？
 
-  - intent: faq/
+  - intent: faq/nursing_22
     examples: |
+      - 那烘干机呢，也是自费的吗？
 
-  - intent: faq/
+  - intent: faq/nursing_23
     examples: |
+      - 你们养老院有几个食堂，平时老人们吃饭方便吗？
 
-  - intent: faq/
+  - intent: faq/nursing_24
     examples: |
+      - 我听说你们这儿有个活动大厅？
 
-  - intent: faq/
+  - intent: faq/nursing_25
     examples: |
+      - 活动大厅今天会组织越剧观赏活动吗？
 
-  - intent: faq/
+  - intent: faq/nursing_26
     examples: |
+      - 我不太了解这里，现在有点无聊，你能给我推荐个打发时间的去处吗？
 
-  - intent: faq/
+  - intent: faq/nursing_25
     examples: |
+      - 你刚刚还说了有文娱区，那边有什么活动吗？人多点、热闹点的那种活动。
 
-  - intent: faq/
+  - intent: faq/nursing_26
     examples: |
+      - 那最近的公共食堂怎么走？
 
-  - intent: faq/
+  - intent: faq/nursing_27
     examples: |
+      - 这养老院会组织老人们参加些活动吗？
 
-  - intent: faq/
+  - intent: faq/nursing_28
     examples: |
+      - 嗯……有没有什么比较不费体力的活动呀？就是那种坐着不用动的活动。
 
-  - intent: faq/
+  - intent: faq/nursing_29
     examples: |
+      - 你们养老院有小花园吗？
 
-  - intent: faq/
+  - intent: faq/nursing_30
     examples: |
+      - 从养老院到市中心要多久呢？
 
-  - intent: faq/
+  - intent: faq/nursing_31
     examples: |
+      - 想问一下你们养老院里的房间布置是怎样的呢？
 
-  - intent: faq/
+  - intent: faq/nursing_32
     examples: |
+      - 听着不错，那床单被套大概多久换一次呢？
 
-  - intent: faq/
+  - intent: faq/nursing_33
     examples: |
+      - 手工活动具体包括哪些呢？
 
-  - intent: faq/
+  - intent: faq/nursing_34
     examples: |
+      - 我们家老年人比较注重的吃的方面，给我们介绍一下你们的餐厅吧。
 
-  - intent: faq/
+  - intent: faq/nursing_35
     examples: |
+      - 老人进食不方便的话会有人员辅助吗，怎么个辅助法呢？
 
-  - intent: faq/
+  - intent: faq/nursing_36
     examples: |
+      - 管家姐姐是单独负责一个人吗？
 
-  - intent: faq/
+  - intent: faq/nursing_37
     examples: |
+      - 请问一下你们医务室的医生水平是怎么样的的呢？
 
-  - intent: faq/
+  - intent: faq/nursing_38
     examples: |
+      - 确实挺人性化的，那你们卫生间里有呼叫铃吗，万一老人有突发情况怎么办。
 
-  - intent: faq/
+  - intent: faq/nursing_39
     examples: |
+      - 你们这个一天给老人制定的用餐次数是多少呢？
 
-  - intent: faq/
+  - intent: faq/nursing_40
     examples: |
+      - 哦哦，我们家老人信教，你们提供清真食品吗？
 
-  - intent: faq/
+  - intent: faq/nursing_41
     examples: |
+      - 请问你们主要接待的对象有哪些呢？
 
-  - intent: faq/
+  - intent: faq/nursing_42
     examples: |
+      - 不同的对象群体有活动区域划分吗？
 
-  - intent: faq/
+  - intent: faq/nursing_43
     examples: |
+      - 可以给我介绍一下你们院提供的文娱活动吗？
 
-  - intent: faq/
+  - intent: faq/nursing_44
     examples: |
+      - 万一工作人员在工作时出现怠慢疏忽的情况怎么办呢？
 
-  - intent: faq/
+  - intent: faq/nursing_45
     examples: |
+      - 想问一下这个老年大学会不会不太适合之前没有学习基础的一些老年人啊？
 
-  - intent: faq/
+  - intent: faq/nursing_46
     examples: |
+      - 请问你们养老院对入住有什么申请条件限制吗？
 
-  - intent: faq/
+  - intent: faq/nursing_47
     examples: |
+      - 办理入住手续的时候呢？
 
-  - intent: faq/
+  - intent: faq/nursing_48
     examples: |
+      - 请问入住你们养老院家属能有探望时间吗？
 
-  - intent: faq/
+  - intent: faq/nursing_49
     examples: |
+      没事，不用预约。那如果老人后来的身体情况有变化，他的护理等级还会重新评估吗？
 
-  - intent: faq/
+  - intent: faq/nursing_50
     examples: |
+      - 请问你们养老院在初次入住的时候会提供什么东西吗？
 
-  - intent: faq/
+  - intent: faq/nursing_51
     examples: |
+      - 哦哦行。那我们自己带的东西有指定存放地点吗？
 
-  - intent: faq/
+  - intent: faq/nursing_52
     examples: |
+      - 电视是可以点播的那种吗？
 
-  - intent: faq/
+  - intent: faq/nursing_53
     examples: |
+      - 委托人又是怎么确定的呢？
 
-  - intent: faq/
+  - intent: faq/nursing_54
     examples: |
+      - 确实，那你们的图书室里都有哪些图书呢？
 
-  - intent: faq/
+  - intent: faq/nursing_55
     examples: |
+      - 那还挺不错，听你提到有个空中花园，里面的花是老人自己养吗？
 
-  - intent: faq/
+  - intent: faq/nursing_56
     examples: |
+      - 书画教哪些书画呢？
 
-  - intent: faq/
+  - intent: faq/nursing_57
     examples: |
+      - 你们这个养老院收的人多吗？
 
-  - intent: faq/
+  - intent: faq/nursing_58
     examples: |
+      - 那你们面积有多大呢？
 
-  - intent: faq/
+  - intent: faq/nursing_59
     examples: |
+      - 你们养老院的规模大吗？
 
-  - intent: faq/
+  - intent: faq/nursing_60
     examples: |
+      - 想请问如果我们家老人有一些需要吃的特定的药你们养老院要负责吗？
 
-  - intent: faq/
+  - intent: faq/nursing_61
     examples: |
+      - 联合医院是什么意思呢？
 
-  - intent: faq/
+  - intent: faq/nursing_62
     examples: |
+      -你们养老院大概可以治疗哪些病呢？
 
-  - intent: faq/
+  - intent: faq/nursing_63
     examples: |
+      - 你们养老院有地暖吗？
 
-  - intent: faq/
+  - intent: faq/nursing_64
     examples: |
+      - 空调这些的温度是你们统一调控还是老人可以自己调呢？
 
-  - intent: faq/
+  - intent: faq/nursing_65
     examples: |
+      - 确实应该这样。还有就是你们养老院应该是禁烟的吧？
 
-  - intent: faq/
+  - intent: faq/nursing_66
     examples: |
+      - 请问你们楼层配的有电梯吗？
 
-  - intent: faq/
+  - intent: faq/medicine_1
     examples: |
+      - 我喉咙痛，可能是扁桃体肿了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_2
     examples: |
+      - 我鼻塞很严重，一周了都不好转，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_3
     examples: |
+      - 我一直咳嗽，有痰，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_4
     examples: |
+      - 我胸痛，喘不过气，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_5
     examples: |
+      - 我老感觉心慌，呼吸急促，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_6
     examples: |
+      - 我的心跳节奏不太对，有时候心跳快有时心跳慢，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_7
     examples: |
+      - 请问我感到恶心想吐，可以挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_8
     examples: |
+      - 我肚子疼，可以挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_9
     examples: |
+      - 我有点尿频尿急，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_10
     examples: |
+      - 我最近经常流鼻血，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_11
     examples: |
+      - 我最近脸色不太好，平常人也没精神，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_12
     examples: |
+      - 我关节很痛，尤其是膝关节，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_13
     examples: |
+      - 我脸上长了很多红点点，一直不消下去，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_14
     examples: |
+      - 我吞东西的时候喉咙很痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_15
     examples: |
+      - 我说话声音嘶哑了好几天了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_16
     examples: |
+      - 我喉咙一直很痒，老是想咳嗽，干干的，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_17
     examples: |
+      - 我拉肚子很严重，可能是吃了不干净的东西，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_18
     examples: |
+      - 我吐了好几次，可能是吃了不干净的东西，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_19
     examples: |
+      - 我老是觉得恶心想吐，最近还停经了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_20
     examples: |
+      - 我呕吐很严重，完全是液体，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_21
     examples: |
+      - 我肚子很胀，但我并没有乱吃东西，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_22
     examples: |
+      - 我肚子很胀，但我并没有乱吃东西，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_23
     examples: |
+      - 我肚子痛，但并不是刺痛的感觉，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_24
     examples: |
+      - 我上腹特别痛，浑身乏力，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_25
     examples: |
+      - 我下腹特别痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_26
     examples: |
+      - 我肚子那里好像有一个硬硬的肿块，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_27
     examples: |
+      - 我之前得过心脏病，现在肚子很痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_28
     examples: |
+      - 我胸口不舒服，很闷，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_29
     examples: |
+      - 我胸口不舒服，还一直咳嗽，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_30
     examples: |
+      - 我胸口痛，呼吸也有点困难，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_31
     examples: |
+      - 我之前缝过针，现在胸口痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_32
     examples: |
+      - 我头痛头晕，还一直发烧，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_33
     examples: |
+      - 我最近有点发烧，还有些听不清别人说话了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_34
     examples: |
+      - 我脖子很痛，脑袋也晕，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_35
     examples: |
+      - 我站起身时突然感觉很晕，是贫血吗？应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_36
     examples: |
+      - 我最近有点头晕，而且还想吐，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_37
     examples: |
+      - 我最近有点头痛，吃饭也吃不下，老想吐，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_38
     examples: |
+      - 我因为高血压有些头晕，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_39
     examples: |
+      - 我吃不下饭，总是心跳很快，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_40
     examples: |
+      - 我水肿得厉害，脸色也不好，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_41
     examples: |
+      - 我的腿上有些肿，一按就可以按下去，胸闷气短，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_42
     examples: |
+      - 我的腿上有些水肿，但是按不下去，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_43
     examples: |
+      - 我最近吃不下饭，感觉有点胃胀气，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_44
     examples: |
+      - 我失眠很多，而且容易流汗，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_45
     examples: |
+      - 我最近暴饮暴食，容易吃很多，完全控制不住自己，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_46
     examples: |
+      - 我脸上好像有个包块，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_47
     examples: |
+      - 我关节处有个凸起，硬硬的，不是骨头，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_48
     examples: |
+      - 我关节处有个凸起，硬硬的，不是骨头，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_49
     examples: |
+      - 我脖子很酸痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_50
     examples: |
+      - 我的腰部很胀痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_51
     examples: |
+      - 我刚刚摔了一跤，大腿内侧到屁股感觉火辣辣的疼，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_52
     examples: |
+      - 我好像有点腰肌劳损，坐太久了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_53
     examples: |
+      - 我昨天把脚崴了，现在肿起来了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_54
     examples: |
+      - 我脚趾甲颜色突然变得很浅，脚很麻，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_55
     examples: |
+      - 我昨天去爬山了，今天腿特别酸痛，有点麻木，不能很好走路，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_56
     examples: |
+      - 我腰部酸胀隐痛不适，今早起床后腰部疼痛加剧，如刀割样绞痛，呈阵发性，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_57
     examples: |
+      - 我好像骨折了，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_58
     examples: |
+      - 我刚刚头不小心撞了一下，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_59
     examples: |
+      - 我胸口一直痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_60
     examples: |
+      - 我乳房很痛，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_61
     examples: |
+      - 我腰部感觉不舒服，有些痛痒，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_62
     examples: |
+      - 我今晚喝了很多酒，现在有些不舒服，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_63
     examples: |
+      - 我孩子今年八岁，非常胖，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_64
     examples: |
+      - 请问哪里可以喝水？
 
-  - intent: faq/
+  - intent: faq/medicine_65
     examples: |
+      - 我应该去哪里测血压？
 
-  - intent: faq/
+  - intent: faq/medicine_66
     examples: |
+      - 感觉最近眼睛很酸，有时候头晕，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_67
     examples: |
+      - 我肚子疼，按着的话会好一些，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_68
     examples: |
+      - 我最近便血，血有些黑，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_69
     examples: |
+      - 我肚子疼，完全不能碰，一按就疼得更厉害，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_70
     examples: |
+      - 我腰疼，而且老是想上厕所，应该挂什么科？
 
-  - intent: faq/
+  - intent: faq/medicine_71
     examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
-
-  - intent: faq/
-    examples: |
+      - 老是呕吐，而且大便比较黑，应该挂什么科？
