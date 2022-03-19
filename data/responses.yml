@@ -237,277 +237,215 @@ responses:
   utter_faq/nursing_68:
     - text: 您放心，都有的。
 
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
-  # utter_faq/medicine_:
-  #   - text:
+  utter_faq/medicine_1:
+    - text: 您好，咽痛、扁桃体肿大，建议前往耳鼻喉科。
+
+  utter_faq/medicine_2:
+    - text: 您好，鼻塞、打喷嚏以及咳嗽建议挂呼吸内科。
+
+  utter_faq/medicine_3:
+    - text: 您好，咽痛、扁桃体肿大，建议前往耳鼻喉科。
+
+  utter_faq/medicine_4:
+    - text: 您好，胸部疼痛或者感到气急，建议挂呼吸内科。
+
+  utter_faq/medicine_5:
+    - text: 您好，心慌、心悸、心律不齐以及皮肤黏膜瘀点，建议首诊心内科。
+
+  utter_faq/medicine_6:
+    - text: 您好，心慌、心悸、心律不齐以及皮肤黏膜瘀点，建议首诊心内科。
+
+  utter_faq/medicine_7:
+    - text: 您好，觉得恶心、呕吐以及感到腹痛，建议首诊消化内科。
+
+  utter_faq/medicine_8:
+    - text: 您好，觉得恶心、呕吐以及感到腹痛，建议首诊消化内科。
+
+  utter_faq/medicine_9:
+    - text: 您好，尿频、尿急、尿痛，建议首诊泌尿科或者肾内科。
+
+  utter_faq/medicine_10:
+    - text: 您好，面色苍白、皮肤有紫点或紫斑，建议首诊血液科。
+
+  utter_faq/medicine_11:
+    - text: 您好，面色苍白、皮肤有紫点或紫斑，建议首诊血液科。
+
+  utter_faq/medicine_12:
+    - text: 您好，关节肿痛、有低热、面部皮肤有红斑，建议首诊内分泌科。
+
+  utter_faq/medicine_13:
+    - text: 您好，关节肿痛、有低热、面部皮肤有红斑，建议首诊内分泌科。
+
+  utter_faq/medicine_14:
+    - text: 您好，咽部有痒感、吞咽不适、声嘶，建议前往耳鼻咽喉科。
+
+  utter_faq/medicine_15:
+    - text: 您好，咽部有痒感、吞咽不适、声嘶，建议前往耳鼻咽喉科。
+
+  utter_faq/medicine_16:
+    - text: 您好，咽部有痒感、吞咽不适、声嘶，建议前往耳鼻咽喉科。
+
+  utter_faq/medicine_17:
+    - text: 您好，呕心呕吐伴有腹痛或腹泻，建议前往消化内科。
+
+  utter_faq/medicine_18:
+    - text: 您好，呕心呕吐伴有腹痛或腹泻，建议前往消化内科。
+
+  utter_faq/medicine_19:
+    - text: 您好，恶心呕吐有停经史者，建议前往妇产科。
+
+  utter_faq/medicine_20:
+    - text: 您好，剧烈呕吐呈喷射状者，建议前往神经内科。
+
+  utter_faq/medicine_21:
+    - text: 您好，伴有腹胀、腹痛，无不洁饮食史，建议首诊消化内科。
+
+  utter_faq/medicine_22:
+    - text: 您好，伴有腹胀、腹痛，无不洁饮食史，建议首诊消化内科。
+
+  utter_faq/medicine_23:
+    - text: 您好，慢性腹痛，建议首诊消化科。
+
+  utter_faq/medicine_24:
+    - text: 您好，腹部疼痛以上腹为主、恶心呕吐、腹泻、发热、乏力，建议首诊消化内科。
+
+  utter_faq/medicine_25:
+    - text: 您好，腹部疼痛以右下腹疼痛为主，似有腹部肿块者，建议首诊普外科或者消化内科。
+
+  utter_faq/medicine_26:
+    - text: 您好，腹部疼痛以右下腹疼痛为主，似有腹部肿块者，建议首诊普外科或者消化内科。
+
+  utter_faq/medicine_27:
+    - text: 您好，较剧烈上腹痛、有心脏病史、胸闷者，建议首诊心血管内科。
+
+  utter_faq/medicine_28:
+    - text: 您好，心前区疼痛伴胸闷，建议首诊心血管内科。
+
+  utter_faq/medicine_29:
+    - text: 您好，胸痛伴咳嗽、咳痰，建议首诊呼吸内科。
+
+  utter_faq/medicine_30:
+    - text: 您好，胸壁疼痛似与呼吸相关，建议首诊呼吸内科。
+
+  utter_faq/medicine_31:
+    - text: 您好，外伤后胸痛，建议首诊胸外科或普外科。
+
+  utter_faq/medicine_32:
+    - text: 您好，眩晕伴头痛、发热、呕吐、颈部僵硬、听力或视力下降，建议首诊神经内科。
+
+  utter_faq/medicine_33:
+    - text: 您好，眩晕伴头痛、发热、呕吐、颈部僵硬、听力或视力下降，建议首诊神经内科。
+
+  utter_faq/medicine_34:
+    - text: 您好，眩晕伴头痛、发热、呕吐、颈部僵硬、听力或视力下降，建议首诊神经内科。
+
+  utter_faq/medicine_35:
+    - text: 您好，扭头或变化体位时眩晕，发热、呕吐、听力或视力下降，建议首诊神经内科。
+
+  utter_faq/medicine_36:
+    - text: 您好，头晕、眩晕伴恶心，建议首诊神经内科。
+
+  utter_faq/medicine_37:
+    - text: 您好，头痛伴恶心，建议首诊神经内科。
+
+  utter_faq/medicine_38:
+    - text: 您好，由高血压引起的头晕，建议首诊心血管内科。
+
+  utter_faq/medicine_39:
+    - text: 您好，头晕伴有饭前心慌、手抖，建议首诊内分泌科。
+
+  utter_faq/medicine_40:
+    - text: 您好，晨起后双眼睑水肿，伴面色苍白、乏力，建议首诊肾内科。
+
+  utter_faq/medicine_41:
+    - text: 您好，双下肢压陷性水肿，伴心慌、气促，建议首诊心内科或呼吸内科。
+
+  utter_faq/medicine_42:
+    - text: 您好，双下肢非压陷性水肿，建议首诊内分泌科。
+
+  utter_faq/medicine_43:
+    - text: 您好，食欲异常伴有上腹部不适、嗳气、胃胀、消瘦、厌食油腻、疲乏，建议首诊消化内科。
+
+  utter_faq/medicine_44:
+    - text: 您好，疲乏、感情淡漠、心悸、多饮、多食、多汗、易激动、失眠、消瘦，建议首诊分泌科。
+
+  utter_faq/medicine_45:
+    - text: 您好，疲乏、感情淡漠、心悸、多饮、多食、多汗、易激动、失眠、消瘦，建议首诊分泌科。
+
+  utter_faq/medicine_46:
+    - text: 您好，面部有包块，建议首诊外科或耳鼻咽喉科。
+
+  utter_faq/medicine_47:
+    - text: 您好，关节处有包块，建议首诊骨科。
+
+  utter_faq/medicine_48:
+    - text: 您好，关节处有包块，建议首诊骨科。
+
+  utter_faq/medicine_49:
+    - text: 您好，颈、肩、腰部疼痛，建议首诊骨科或推拿科。
+
+  utter_faq/medicine_50:
+    - text: 您好，颈、肩、腰部疼痛，建议首诊骨科或推拿科。
+
+  utter_faq/medicine_51:
+    - text: 您好，外伤，疼痛向臀部，大腿放射，建议首诊骨科。
+
+  utter_faq/medicine_52:
+    - text: 您好，扭伤、腰肌劳，建议首诊骨科或推拿科。
+
+  utter_faq/medicine_53:
+    - text: 您好，扭伤、腰肌劳，建议首诊骨科或推拿科。
+
+  utter_faq/medicine_54:
+    - text: 您好，下肢出现怠倦、麻木、疼痛，休息一段时间后症状缓解，足部冰凉麻木，皮肤、趾甲颜色苍白，建议首诊骨科。
+
+  utter_faq/medicine_55:
+    - text: 您好，腰酸痛、腿痛、双足底麻木，逐渐向上发展到小腿、大腿及腰骶部麻木，间歇性跛行，建议首诊骨科。
+
+  utter_faq/medicine_56:
+    - text: 您好，腰腿疼伴腹痛、尿频、尿急、尿痛，建议首诊泌尿科。
+
+  utter_faq/medicine_57:
+    - text: 您好，明显开放或闭合性骨折。肌肉韧带损伤，建议首诊泌骨科。
+
+  utter_faq/medicine_58:
+    - text: 您好，头部撞击导致的头痛，建议首诊脑外科。
+
+  utter_faq/medicine_59:
+    - text: 您好，建议挂内科
+
+  utter_faq/medicine_60:
+    - text: 您好，乳房痛的常见原因为乳腺增生，建议首诊乳腺外科。
+
+  utter_faq/medicine_61:
+    - text: 您好，腰部皮脂内疼痛，是带状疱疹的早期症状，建议首诊皮肤科。
+
+  utter_faq/medicine_62:
+    - text: 您好，酒醉后感觉身体不适，建议首诊急诊科或内科。
+
+  utter_faq/medicine_63:
+    - text: 您好，疑患肥胖病症，建议首诊内分泌科。
+
+  utter_faq/medicine_64:
+    - text: 您好，饮水机在一楼大厅最东侧。
+
+  utter_faq/medicine_65:
+    - text: 您好，测血压请前往一楼护士站。
+
+  utter_faq/medicine_66:
+    - text: 您好，用眼过度伴有头晕，建议首诊眼科。
+
+  utter_faq/medicine_67:
+    - text: 您好，腹部疼痛、按着会缓解，建议首诊消化内科。
+
+  utter_faq/medicine_68:
+    - text: 您好，大便有血、血呈暗红色或黑色，建议首诊消化内科。
+
+  utter_faq/medicine_69:
+    - text: 您好，腹部疼痛、按压无法缓解疼痛，建议首诊普外科。
+
+  utter_faq/medicine_70:
+    - text: 您好，腰腹疼痛伴有小便异常，建议首诊泌尿外科。
+
+  utter_faq/medicine_71:
+    - text: 您好，呕吐伴有呕血黑便，建议首诊消化内科。

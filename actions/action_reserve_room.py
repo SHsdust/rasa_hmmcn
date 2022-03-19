@@ -108,7 +108,6 @@ ENGINE = sa.create_engine("sqlite:///profile.db")
 create_db(ENGINE, 'profile')
 profile_db = ProfileDB(ENGINE)
 
-
 class CheckUserReservation(Action):
     def name(self) -> Text:
         return "action_check_user_reservation"
