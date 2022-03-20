@@ -2,101 +2,101 @@ version: "3.0"
 nlu:
   - intent: query_knowledge_base
     examples: |
-      - 介绍一下[格园](sushe)
-      - 介绍一下[游泳馆](yule)
-      - 介绍一下[智能与计算学部](xueyuan)
-      - 介绍一下[梅园餐厅](shitang)
-      - 介绍一下[郑东图书馆](fuwuxingjianzhu)
-      - [格园](sushe)的[名称](attribute)是什么？
-      - [格园](sushe)的[房型](attribute)是什么？
-      - [格园](sushe)有[独立卫浴](attribute)吗？
-      - [格园](sushe)有[电梯](attribute)吗？
-      - [格园](sushe)有[暖气](attribute)吗？
-      - [格园](sushe)有[空调](attribute)吗？
-      - [格园](sushe)有[停车位](attribute)吗？
-      - [格园](sushe)的[区域](attribute)是什么？
-      - [格园](sushe)的[类型](attribute)是什么？
-      - [格园](sushe)的[周边食堂](attribute)是什么？
-      - [格园](sushe)的[周边娱乐](attribute)是什么？
-      - [格园](sushe)的[周边学院](attribute)是什么？
-      - [游泳馆](yule)的[名称](attribute)是什么？
-      - [游泳馆](yule)的[地址](attribute)是什么？
-      - [游泳馆](yule)的[电话](attribute)是什么？
-      - [游泳馆](yule)的[开放时间](attribute)是什么？
-      - [游泳馆](yule)的[价格](attribute)是什么？
-      - [游泳馆](yule)有[免费](attribute)吗？
-      - [游泳馆](yule)有[学生卡](attribute)吗？
-      - [游泳馆](yule)有[预约](attribute)吗？
-      - [游泳馆](yule)有[停车位](attribute)吗？
-      - [游泳馆](yule)的[区域](attribute)是什么？
-      - [游泳馆](yule)的[支付方式](attribute)是什么？
-      - [游泳馆](yule)的[周边食堂](attribute)是什么？
-      - [游泳馆](yule)的[周边学院](attribute)是什么？
-      - [游泳馆](yule)的[周边宿舍](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[名称](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[地址](attribute)是什么？
-      - [智能与计算学部](xueyuan)有[电话](attribute)吗？
-      - [智能与计算学部](xueyuan)的[创立时间](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[院长](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[代表性实验室](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[主要专业](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[周边食堂](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[周边宿舍](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[周边娱乐](attribute)是什么？
-      - [智能与计算学部](xueyuan)有[停车位](attribute)吗？
-      - [智能与计算学部](xueyuan)的[区域](attribute)是什么？
-      - [智能与计算学部](xueyuan)的[周边服务型建筑](attribute)是什么？
-      - [梅园餐厅](shitang)的[名称](attribute)是什么？
-      - [梅园餐厅](shitang)的[主要食物](attribute)是什么？
-      - [梅园餐厅](shitang)的[人均价格](attribute)是什么？
-      - [梅园餐厅](shitang)的[区域](attribute)是什么？
-      - [梅园餐厅](shitang)的[地址](attribute)是什么？
-      - [梅园餐厅](shitang)的[开放时间](attribute)是什么？
-      - [梅园餐厅](shitang)的[支付方式](attribute)是什么？
-      - [梅园餐厅](shitang)有[停车位](attribute)吗？
-      - [梅园餐厅](shitang)有[电话](attribute)吗？
-      - [梅园餐厅](shitang)的[菜系](attribute)是什么？
-      - [梅园餐厅](shitang)有[评分](attribute)吗？
-      - [梅园餐厅](shitang)的[周边娱乐](attribute)是什么？
-      - [梅园餐厅](shitang)的[周边学院](attribute)是什么？
-      - [梅园餐厅](shitang)的[周边宿舍](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[名称](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[地址](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[电话](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[开放时间](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[部门](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[主要业务](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)有[学生卡](attribute)吗？
-      - [郑东图书馆](fuwuxingjianzhu)有[免费](attribute)吗？
-      - [郑东图书馆](fuwuxingjianzhu)有[预约](attribute)吗？
-      - [郑东图书馆](fuwuxingjianzhu)有[停车位](attribute)吗？
-      - [郑东图书馆](fuwuxingjianzhu)的[区域](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[支付方式](attribute)是什么？
-      - [郑东图书馆](fuwuxingjianzhu)的[周边学院](attribute)是什么？
-      - 天大有什么[宿舍]{"entity": "object_type", "value": "sushe"}
-      - 天大有哪些[宿舍]{"entity": "object_type", "value": "sushe"}
-      - 天大有什么[娱乐]{"entity": "object_type", "value": "yule"}
-      - 天大有哪些[娱乐]{"entity": "object_type", "value": "yule"}
-      - 天大有什么[学院]{"entity": "object_type", "value": "xueyuan"}
-      - 天大有哪些[学院]{"entity": "object_type", "value": "xueyuan"}
-      - 天大有什么[食堂]{"entity": "object_type", "value": "shitang"}
-      - 天大有哪些[食堂]{"entity": "object_type", "value": "shitang"}
-      - 天大有什么[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
-      - 天大有哪些[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
-      - 天大有什么[宿舍]{"entity": "object_type", "value": "sushe"}
-      - 有哪些[宿舍]{"entity": "object_type", "value": "sushe"}
-      - 有什么[娱乐]{"entity": "object_type", "value": "yule"}
-      - 有什么[娱乐场所]{"entity": "object_type", "value": "yule"}
-      - 有哪些[娱乐]{"entity": "object_type", "value": "yule"}
-      - 有哪些[娱乐场所]{"entity": "object_type", "value": "yule"}
-      - 有什么[学院]{"entity": "object_type", "value": "xueyuan"}
-      - 有哪些[学院]{"entity": "object_type", "value": "xueyuan"}
-      - 有什么[食堂]{"entity": "object_type", "value": "shitang"}
-      - 有哪些[食堂]{"entity": "object_type", "value": "shitang"}
-      - 有什么[餐厅]{"entity": "object_type", "value": "shitang"}
-      - 有哪些[餐厅]{"entity": "object_type", "value": "shitang"}
-      - 有什么[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
-      - 有哪些[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
+      - 介绍一下[格园](domitary)
+      - 介绍一下[游泳馆](entertainment)
+      - 介绍一下[智能与计算学部](department)
+      - 介绍一下[梅园餐厅](canteen)
+      - 介绍一下[郑东图书馆](service_building)
+      - [格园](domitary)的[名称](attribute)是什么？
+      - [格园](domitary)的[房型](attribute)是什么？
+      - [格园](domitary)有[独立卫浴](attribute)吗？
+      - [格园](domitary)有[电梯](attribute)吗？
+      - [格园](domitary)有[暖气](attribute)吗？
+      - [格园](domitary)有[空调](attribute)吗？
+      - [格园](domitary)有[停车位](attribute)吗？
+      - [格园](domitary)的[区域](attribute)是什么？
+      - [格园](domitary)的[类型](attribute)是什么？
+      - [格园](domitary)的[周边食堂](attribute)是什么？
+      - [格园](domitary)的[周边娱乐](attribute)是什么？
+      - [格园](domitary)的[周边学院](attribute)是什么？
+      - [游泳馆](entertainment)的[名称](attribute)是什么？
+      - [游泳馆](entertainment)的[地址](attribute)是什么？
+      - [游泳馆](entertainment)的[电话](attribute)是什么？
+      - [游泳馆](entertainment)的[开放时间](attribute)是什么？
+      - [游泳馆](entertainment)的[价格](attribute)是什么？
+      - [游泳馆](entertainment)有[免费](attribute)吗？
+      - [游泳馆](entertainment)有[学生卡](attribute)吗？
+      - [游泳馆](entertainment)有[预约](attribute)吗？
+      - [游泳馆](entertainment)有[停车位](attribute)吗？
+      - [游泳馆](entertainment)的[区域](attribute)是什么？
+      - [游泳馆](entertainment)的[支付方式](attribute)是什么？
+      - [游泳馆](entertainment)的[周边食堂](attribute)是什么？
+      - [游泳馆](entertainment)的[周边学院](attribute)是什么？
+      - [游泳馆](entertainment)的[周边宿舍](attribute)是什么？
+      - [智能与计算学部](department)的[名称](attribute)是什么？
+      - [智能与计算学部](department)的[地址](attribute)是什么？
+      - [智能与计算学部](department)有[电话](attribute)吗？
+      - [智能与计算学部](department)的[创立时间](attribute)是什么？
+      - [智能与计算学部](department)的[院长](attribute)是什么？
+      - [智能与计算学部](department)的[代表性实验室](attribute)是什么？
+      - [智能与计算学部](department)的[主要专业](attribute)是什么？
+      - [智能与计算学部](department)的[周边食堂](attribute)是什么？
+      - [智能与计算学部](department)的[周边宿舍](attribute)是什么？
+      - [智能与计算学部](department)的[周边娱乐](attribute)是什么？
+      - [智能与计算学部](department)有[停车位](attribute)吗？
+      - [智能与计算学部](department)的[区域](attribute)是什么？
+      - [智能与计算学部](department)的[周边服务型建筑](attribute)是什么？
+      - [梅园餐厅](canteen)的[名称](attribute)是什么？
+      - [梅园餐厅](canteen)的[主要食物](attribute)是什么？
+      - [梅园餐厅](canteen)的[人均价格](attribute)是什么？
+      - [梅园餐厅](canteen)的[区域](attribute)是什么？
+      - [梅园餐厅](canteen)的[地址](attribute)是什么？
+      - [梅园餐厅](canteen)的[开放时间](attribute)是什么？
+      - [梅园餐厅](canteen)的[支付方式](attribute)是什么？
+      - [梅园餐厅](canteen)有[停车位](attribute)吗？
+      - [梅园餐厅](canteen)有[电话](attribute)吗？
+      - [梅园餐厅](canteen)的[菜系](attribute)是什么？
+      - [梅园餐厅](canteen)有[评分](attribute)吗？
+      - [梅园餐厅](canteen)的[周边娱乐](attribute)是什么？
+      - [梅园餐厅](canteen)的[周边学院](attribute)是什么？
+      - [梅园餐厅](canteen)的[周边宿舍](attribute)是什么？
+      - [郑东图书馆](service_building)的[名称](attribute)是什么？
+      - [郑东图书馆](service_building)的[地址](attribute)是什么？
+      - [郑东图书馆](service_building)的[电话](attribute)是什么？
+      - [郑东图书馆](service_building)的[开放时间](attribute)是什么？
+      - [郑东图书馆](service_building)的[部门](attribute)是什么？
+      - [郑东图书馆](service_building)的[主要业务](attribute)是什么？
+      - [郑东图书馆](service_building)有[学生卡](attribute)吗？
+      - [郑东图书馆](service_building)有[免费](attribute)吗？
+      - [郑东图书馆](service_building)有[预约](attribute)吗？
+      - [郑东图书馆](service_building)有[停车位](attribute)吗？
+      - [郑东图书馆](service_building)的[区域](attribute)是什么？
+      - [郑东图书馆](service_building)的[支付方式](attribute)是什么？
+      - [郑东图书馆](service_building)的[周边学院](attribute)是什么？
+      - 天大有什么[宿舍]{"entity": "object_type", "value": "domitary"}
+      - 天大有哪些[宿舍]{"entity": "object_type", "value": "domitary"}
+      - 天大有什么[娱乐]{"entity": "object_type", "value": "entertainment"}
+      - 天大有哪些[娱乐]{"entity": "object_type", "value": "entertainment"}
+      - 天大有什么[学院]{"entity": "object_type", "value": "department"}
+      - 天大有哪些[学院]{"entity": "object_type", "value": "department"}
+      - 天大有什么[食堂]{"entity": "object_type", "value": "canteen"}
+      - 天大有哪些[食堂]{"entity": "object_type", "value": "canteen"}
+      - 天大有什么[服务型建筑]{"entity": "object_type", "value": "service_building"}
+      - 天大有哪些[服务型建筑]{"entity": "object_type", "value": "service_building"}
+      - 天大有什么[宿舍]{"entity": "object_type", "value": "domitary"}
+      - 有哪些[宿舍]{"entity": "object_type", "value": "domitary"}
+      - 有什么[娱乐]{"entity": "object_type", "value": "entertainment"}
+      - 有什么[娱乐场所]{"entity": "object_type", "value": "entertainment"}
+      - 有哪些[娱乐]{"entity": "object_type", "value": "entertainment"}
+      - 有哪些[娱乐场所]{"entity": "object_type", "value": "entertainment"}
+      - 有什么[学院]{"entity": "object_type", "value": "department"}
+      - 有哪些[学院]{"entity": "object_type", "value": "department"}
+      - 有什么[食堂]{"entity": "object_type", "value": "canteen"}
+      - 有哪些[食堂]{"entity": "object_type", "value": "canteen"}
+      - 有什么[餐厅]{"entity": "object_type", "value": "canteen"}
+      - 有哪些[餐厅]{"entity": "object_type", "value": "canteen"}
+      - 有什么[服务型建筑]{"entity": "object_type", "value": "service_building"}
+      - 有哪些[服务型建筑]{"entity": "object_type", "value": "service_building"}
       - [它](mention)的[名称](attribute)是什么？
       - [他](mention)的[名称](attribute)是什么？
       - [第一个]{"entity": "mention", "value": "1"}的[名称](attribute)是什么？
@@ -120,3 +120,254 @@ nlu:
       - [第9个]{"entity": "mention", "value": "9"}的[名称](attribute)是什么？
       - [第10个]{"entity": "mention", "value": "10"}的[名称](attribute)是什么？
       - [最后一个]{"entity": "mention", "value": "LAST"}的[名称](attribute)是什么？
+
+  - lookup: domitary
+    examples: |
+      - 格园
+      - 知园
+      - 诚园
+      - 正园
+      - 修园
+      - 齐园
+      - 治园
+      - 平园
+      - 留园
+      - 青年教师公寓
+      - 教师公寓
+
+  - synonym: 青年教师公寓
+    examples: |
+      - 教师公寓
+
+  - lookup: entertainment
+    examples: |
+      - 游泳馆
+      - 体育场
+      - 体育公园
+      - 天津大学求实影院
+      - 艾克仕国际健身连锁
+      - 乒乓球馆
+      - 排球馆
+      - 篮球场
+      - 羽毛球馆
+      - 舞蹈教室
+      - 太雷广场
+      - 宣怀广场
+      - 北洋广场
+      - 书田广场
+      - 天麟广场
+      - 求实影院
+      - 健身房
+  - synonym: 天津大学求实影院
+    examples: |
+      - 求实影院
+  - synonym: 艾克仕国际健身连锁
+    examples: |
+      - 健身房
+
+  - lookup: department
+    examples: |
+      - 智能与计算学部
+      - 化工学院
+      - 材料科学与工程学院
+      - 理学院
+      - 法学院
+      - 文学院
+      - 教育学院
+      - 马克思学院
+      - 建筑工程学院
+      - 机械工程学院
+      - 智算学部
+      - 计算机学院
+      - 材料学院
+  - synonym: 智能与计算学部
+    examples: |
+      - 智算学部
+      - 计算机学院
+  - synonym: 材料科学与工程学院
+    examples: |
+      - 材料学院
+  - lookup: shitang
+    examples: |
+      - 梅园餐厅
+      - 兰园餐厅
+      - 棠园餐厅
+      - 留园餐厅
+      - 青园餐厅
+      - 竹园餐厅
+      - 桃园餐厅
+      - 菊园餐厅
+      - 梅园食堂
+      - 梅园
+      - 兰园食堂
+      - 兰园
+      - 棠园食堂
+      - 棠园
+      - 留园食堂
+      - 留园
+      - 青园食堂
+      - 青园
+      - 竹园食堂
+      - 竹园
+      - 桃园食堂
+      - 桃园
+      - 菊园食堂
+      - 菊园
+  - synonym: 梅园餐厅
+    examples: |
+      - 梅园食堂
+      - 梅园
+  - synonym: 兰园餐厅
+    examples: |
+      - 兰园食堂
+      - 兰园
+  - synonym: 棠园餐厅
+    examples: |
+      - 棠园食堂
+      - 棠园
+  - synonym: 留园餐厅
+    examples: |
+      - 留园食堂
+      - 留园
+  - synonym: 青园餐厅
+    examples: |
+      - 青园食堂
+      - 青园
+  - synonym: 竹园餐厅
+    examples: |
+      - 竹园食堂
+      - 竹园
+  - synonym: 桃园餐厅
+    examples: |
+      - 桃园食堂
+      - 桃园
+  - synonym: 菊园餐厅
+    examples: |
+      - 菊园食堂
+      - 菊园
+  - lookup: fuwuxingjianzhu
+    examples: |
+      - 郑东图书馆
+      - 校医院
+      - 信网中心
+      - 行政服务中心
+      - 大通学生中心
+      - 图书馆
+      - 学生中心
+  - synonym: 郑东图书馆
+    examples: |
+      - 图书馆
+  - synonym: 大通学生中心
+    examples: |
+      - 学生中心
+
+  - lookup: attribute
+    examples: |
+      - 名称
+      - 房型
+      - 独立卫浴
+      - 电梯
+      - 暖气
+      - 空调
+      - 停车位
+      - 区域
+      - 类型
+      - 地址
+      - 电话
+      - 开放时间
+      - 部门
+      - 主要业务
+      - 学生卡
+      - 免费
+      - 预约
+      - 支付方式
+      - 主要食物
+      - 人均价格
+      - 菜系
+      - 评分
+      - 创立时间
+      - 院长
+      - 代表性实验室
+      - 主要专业
+      - 价格
+      - 周边宿舍
+      - 周边学院
+      - 周边食堂
+      - 周边娱乐
+
+      - 专业
+      - 几人间
+      - 附近有什么食堂
+      - 附近有什么餐厅
+      - 附近有什么娱乐
+      - 附近有什么学院
+      - 附近有什么宿舍
+      - 附近有啥食堂
+      - 附近有啥餐厅
+      - 附近有啥娱乐
+      - 附近有啥学院
+      - 附近有啥宿舍
+      - 哪里
+      - 在哪
+      - 位置
+      - 业务
+      - 支付
+      - 食物
+      - 好吃的
+      - 人均消费
+      - 实验室
+      - 创立
+      - 开放
+      - 多少钱
+
+  - synonym: 创立时间
+    examples: |
+      - 创立
+  - synonym: 主要专业
+    examples: |
+      - 专业
+  - synonym: 房型
+    examples: |
+      - 几人间
+  - synonym: 周边食堂
+    examples: |
+      - 附近有什么食堂
+      - 附近有什么餐厅
+      - 附近有啥食堂
+      - 附近有啥餐厅
+  - synonym: 周边娱乐
+    examples: |
+      - 附近有什么娱乐
+      - 附近有啥娱乐
+  - synonym: 周边学院
+    examples: |
+      - 附近有什么学院
+      - 附近有啥学院
+  - synonym: 周边宿舍
+    examples: |
+      - 附近有什么宿舍
+      - 附近有啥宿舍
+  - synonym: 地址
+    examples: |
+      - 哪里
+      - 在哪
+      - 位置
+  - synonym: 主要业务
+    examples: |
+      - 业务
+  - synonym: 支付方式
+    examples: |
+      - 支付
+  - synonym: 主要食物
+    examples: |
+      - 食物
+      - 好吃的
+  - synonym: 人均价格
+    examples: |
+      - 人均消费
+  - synonym: 代表性实验室
+    examples: |
+      - 实验室
+  - synonym: 开放时间
+    examples: |
+      - 开放

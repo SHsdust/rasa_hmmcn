@@ -6,6 +6,13 @@ session_config:
 
 intents:
   - faq
+  - object_type
+  - mention
+  - attribute
+  - domitray
+  - entertainment
+  - canteen
+  - service_building
   - greet
   - goodbye
   - affirm
@@ -45,6 +52,54 @@ entities:
 
 
 slots:
+  object_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
+  mention:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: mention
+  attribute:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: attribute
+  domitary:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
+  entertainmeng:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
+  department:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
+  canteen:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
+  service_building:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: object_type
   room_start_time:
     type: text
     influence_conversation: false
