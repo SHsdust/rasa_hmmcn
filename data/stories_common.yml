@@ -1,0 +1,8 @@
+version: "3.0"
+stories:
+  - story: query knowledge base
+    steps:
+      - intent: query_knowledge_base
+      - action: action_response_query
+      - intent: query_knowledge_base
+      - actino: action_response_query

@@ -1,0 +1,122 @@
+version: "3.0"
+nlu:
+  - intent: query_knowledge_base
+    examples: |
+      - 介绍一下[格园](sushe)
+      - 介绍一下[游泳馆](yule)
+      - 介绍一下[智能与计算学部](xueyuan)
+      - 介绍一下[梅园餐厅](shitang)
+      - 介绍一下[郑东图书馆](fuwuxingjianzhu)
+      - [格园](sushe)的[名称](attribute)是什么？
+      - [格园](sushe)的[房型](attribute)是什么？
+      - [格园](sushe)有[独立卫浴](attribute)吗？
+      - [格园](sushe)有[电梯](attribute)吗？
+      - [格园](sushe)有[暖气](attribute)吗？
+      - [格园](sushe)有[空调](attribute)吗？
+      - [格园](sushe)有[停车位](attribute)吗？
+      - [格园](sushe)的[区域](attribute)是什么？
+      - [格园](sushe)的[类型](attribute)是什么？
+      - [格园](sushe)的[周边食堂](attribute)是什么？
+      - [格园](sushe)的[周边娱乐](attribute)是什么？
+      - [格园](sushe)的[周边学院](attribute)是什么？
+      - [游泳馆](yule)的[名称](attribute)是什么？
+      - [游泳馆](yule)的[地址](attribute)是什么？
+      - [游泳馆](yule)的[电话](attribute)是什么？
+      - [游泳馆](yule)的[开放时间](attribute)是什么？
+      - [游泳馆](yule)的[价格](attribute)是什么？
+      - [游泳馆](yule)有[免费](attribute)吗？
+      - [游泳馆](yule)有[学生卡](attribute)吗？
+      - [游泳馆](yule)有[预约](attribute)吗？
+      - [游泳馆](yule)有[停车位](attribute)吗？
+      - [游泳馆](yule)的[区域](attribute)是什么？
+      - [游泳馆](yule)的[支付方式](attribute)是什么？
+      - [游泳馆](yule)的[周边食堂](attribute)是什么？
+      - [游泳馆](yule)的[周边学院](attribute)是什么？
+      - [游泳馆](yule)的[周边宿舍](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[名称](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[地址](attribute)是什么？
+      - [智能与计算学部](xueyuan)有[电话](attribute)吗？
+      - [智能与计算学部](xueyuan)的[创立时间](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[院长](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[代表性实验室](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[主要专业](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[周边食堂](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[周边宿舍](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[周边娱乐](attribute)是什么？
+      - [智能与计算学部](xueyuan)有[停车位](attribute)吗？
+      - [智能与计算学部](xueyuan)的[区域](attribute)是什么？
+      - [智能与计算学部](xueyuan)的[周边服务型建筑](attribute)是什么？
+      - [梅园餐厅](shitang)的[名称](attribute)是什么？
+      - [梅园餐厅](shitang)的[主要食物](attribute)是什么？
+      - [梅园餐厅](shitang)的[人均价格](attribute)是什么？
+      - [梅园餐厅](shitang)的[区域](attribute)是什么？
+      - [梅园餐厅](shitang)的[地址](attribute)是什么？
+      - [梅园餐厅](shitang)的[开放时间](attribute)是什么？
+      - [梅园餐厅](shitang)的[支付方式](attribute)是什么？
+      - [梅园餐厅](shitang)有[停车位](attribute)吗？
+      - [梅园餐厅](shitang)有[电话](attribute)吗？
+      - [梅园餐厅](shitang)的[菜系](attribute)是什么？
+      - [梅园餐厅](shitang)有[评分](attribute)吗？
+      - [梅园餐厅](shitang)的[周边娱乐](attribute)是什么？
+      - [梅园餐厅](shitang)的[周边学院](attribute)是什么？
+      - [梅园餐厅](shitang)的[周边宿舍](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[名称](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[地址](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[电话](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[开放时间](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[部门](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[主要业务](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)有[学生卡](attribute)吗？
+      - [郑东图书馆](fuwuxingjianzhu)有[免费](attribute)吗？
+      - [郑东图书馆](fuwuxingjianzhu)有[预约](attribute)吗？
+      - [郑东图书馆](fuwuxingjianzhu)有[停车位](attribute)吗？
+      - [郑东图书馆](fuwuxingjianzhu)的[区域](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[支付方式](attribute)是什么？
+      - [郑东图书馆](fuwuxingjianzhu)的[周边学院](attribute)是什么？
+      - 天大有什么[宿舍]{"entity": "object_type", "value": "sushe"}
+      - 天大有哪些[宿舍]{"entity": "object_type", "value": "sushe"}
+      - 天大有什么[娱乐]{"entity": "object_type", "value": "yule"}
+      - 天大有哪些[娱乐]{"entity": "object_type", "value": "yule"}
+      - 天大有什么[学院]{"entity": "object_type", "value": "xueyuan"}
+      - 天大有哪些[学院]{"entity": "object_type", "value": "xueyuan"}
+      - 天大有什么[食堂]{"entity": "object_type", "value": "shitang"}
+      - 天大有哪些[食堂]{"entity": "object_type", "value": "shitang"}
+      - 天大有什么[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
+      - 天大有哪些[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
+      - 天大有什么[宿舍]{"entity": "object_type", "value": "sushe"}
+      - 有哪些[宿舍]{"entity": "object_type", "value": "sushe"}
+      - 有什么[娱乐]{"entity": "object_type", "value": "yule"}
+      - 有什么[娱乐场所]{"entity": "object_type", "value": "yule"}
+      - 有哪些[娱乐]{"entity": "object_type", "value": "yule"}
+      - 有哪些[娱乐场所]{"entity": "object_type", "value": "yule"}
+      - 有什么[学院]{"entity": "object_type", "value": "xueyuan"}
+      - 有哪些[学院]{"entity": "object_type", "value": "xueyuan"}
+      - 有什么[食堂]{"entity": "object_type", "value": "shitang"}
+      - 有哪些[食堂]{"entity": "object_type", "value": "shitang"}
+      - 有什么[餐厅]{"entity": "object_type", "value": "shitang"}
+      - 有哪些[餐厅]{"entity": "object_type", "value": "shitang"}
+      - 有什么[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
+      - 有哪些[服务型建筑]{"entity": "object_type", "value": "fuwuxingjianzhu"}
+      - [它](mention)的[名称](attribute)是什么？
+      - [他](mention)的[名称](attribute)是什么？
+      - [第一个]{"entity": "mention", "value": "1"}的[名称](attribute)是什么？
+      - [第二个]{"entity": "mention", "value": "2"}的[名称](attribute)是什么？
+      - [第三个]{"entity": "mention", "value": "3"}的[名称](attribute)是什么？
+      - [第四个]{"entity": "mention", "value": "4"}的[名称](attribute)是什么？
+      - [第五个]{"entity": "mention", "value": "5"}的[名称](attribute)是什么？
+      - [第六个]{"entity": "mention", "value": "6"}的[名称](attribute)是什么？
+      - [第七个]{"entity": "mention", "value": "7"}的[名称](attribute)是什么？
+      - [第八个]{"entity": "mention", "value": "8"}的[名称](attribute)是什么？
+      - [第九个]{"entity": "mention", "value": "9"}的[名称](attribute)是什么？
+      - [第十个]{"entity": "mention", "value": "10"}的[名称](attribute)是什么？
+      - [第1个]{"entity": "mention", "value": "1"}的[名称](attribute)是什么？
+      - [第2个]{"entity": "mention", "value": "2"}的[名称](attribute)是什么？
+      - [第3个]{"entity": "mention", "value": "3"}的[名称](attribute)是什么？
+      - [第4个]{"entity": "mention", "value": "4"}的[名称](attribute)是什么？
+      - [第5个]{"entity": "mention", "value": "5"}的[名称](attribute)是什么？
+      - [第6个]{"entity": "mention", "value": "6"}的[名称](attribute)是什么？
+      - [第7个]{"entity": "mention", "value": "7"}的[名称](attribute)是什么？
+      - [第8个]{"entity": "mention", "value": "8"}的[名称](attribute)是什么？
+      - [第9个]{"entity": "mention", "value": "9"}的[名称](attribute)是什么？
+      - [第10个]{"entity": "mention", "value": "10"}的[名称](attribute)是什么？
+      - [最后一个]{"entity": "mention", "value": "LAST"}的[名称](attribute)是什么？
