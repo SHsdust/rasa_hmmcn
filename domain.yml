@@ -6,13 +6,7 @@ session_config:
 
 intents:
   - faq
-  - object_type
-  - mention
-  - attribute
-  - domitray
-  - entertainment
-  - canteen
-  - service_building
+  - query_knowledge_base
   - greet
   - goodbye
   - affirm
@@ -39,6 +33,14 @@ intents:
   - list_doctor
 
 entities:
+  - object_type
+  - mention
+  - attribute
+  - domitray
+  - entertainment
+  - canteen
+  - college
+  - service_building
   - time
   - room_id
   - topic
@@ -82,7 +84,7 @@ slots:
     mappings:
       - type: from_entity
         entity: object_type
-  department:
+  college:
     type: text
     influence_conversation: false
     mappings:
@@ -184,6 +186,7 @@ slots:
 
 actions:
   - utter_faq
+  - action_query_kb
   - action_reserve_room
   - action_check_user_reservation
   - action_check_available_room

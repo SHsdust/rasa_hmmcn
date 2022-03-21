@@ -4,7 +4,7 @@ nlu:
     examples: |
       - 介绍一下[格园](domitary)
       - 介绍一下[游泳馆](entertainment)
-      - 介绍一下[智能与计算学部](department)
+      - 介绍一下[智能与计算学部](college)
       - 介绍一下[梅园餐厅](canteen)
       - 介绍一下[郑东图书馆](service_building)
       - [格园](domitary)的[名称](attribute)是什么？
@@ -33,19 +33,19 @@ nlu:
       - [游泳馆](entertainment)的[周边食堂](attribute)是什么？
       - [游泳馆](entertainment)的[周边学院](attribute)是什么？
       - [游泳馆](entertainment)的[周边宿舍](attribute)是什么？
-      - [智能与计算学部](department)的[名称](attribute)是什么？
-      - [智能与计算学部](department)的[地址](attribute)是什么？
-      - [智能与计算学部](department)有[电话](attribute)吗？
-      - [智能与计算学部](department)的[创立时间](attribute)是什么？
-      - [智能与计算学部](department)的[院长](attribute)是什么？
-      - [智能与计算学部](department)的[代表性实验室](attribute)是什么？
-      - [智能与计算学部](department)的[主要专业](attribute)是什么？
-      - [智能与计算学部](department)的[周边食堂](attribute)是什么？
-      - [智能与计算学部](department)的[周边宿舍](attribute)是什么？
-      - [智能与计算学部](department)的[周边娱乐](attribute)是什么？
-      - [智能与计算学部](department)有[停车位](attribute)吗？
-      - [智能与计算学部](department)的[区域](attribute)是什么？
-      - [智能与计算学部](department)的[周边服务型建筑](attribute)是什么？
+      - [智能与计算学部](college)的[名称](attribute)是什么？
+      - [智能与计算学部](college)的[地址](attribute)是什么？
+      - [智能与计算学部](college)有[电话](attribute)吗？
+      - [智能与计算学部](college)的[创立时间](attribute)是什么？
+      - [智能与计算学部](college)的[院长](attribute)是什么？
+      - [智能与计算学部](college)的[代表性实验室](attribute)是什么？
+      - [智能与计算学部](college)的[主要专业](attribute)是什么？
+      - [智能与计算学部](college)的[周边食堂](attribute)是什么？
+      - [智能与计算学部](college)的[周边宿舍](attribute)是什么？
+      - [智能与计算学部](college)的[周边娱乐](attribute)是什么？
+      - [智能与计算学部](college)有[停车位](attribute)吗？
+      - [智能与计算学部](college)的[区域](attribute)是什么？
+      - [智能与计算学部](college)的[周边服务型建筑](attribute)是什么？
       - [梅园餐厅](canteen)的[名称](attribute)是什么？
       - [梅园餐厅](canteen)的[主要食物](attribute)是什么？
       - [梅园餐厅](canteen)的[人均价格](attribute)是什么？
@@ -77,8 +77,8 @@ nlu:
       - 天大有哪些[宿舍]{"entity": "object_type", "value": "domitary"}
       - 天大有什么[娱乐]{"entity": "object_type", "value": "entertainment"}
       - 天大有哪些[娱乐]{"entity": "object_type", "value": "entertainment"}
-      - 天大有什么[学院]{"entity": "object_type", "value": "department"}
-      - 天大有哪些[学院]{"entity": "object_type", "value": "department"}
+      - 天大有什么[学院]{"entity": "object_type", "value": "college"}
+      - 天大有哪些[学院]{"entity": "object_type", "value": "college"}
       - 天大有什么[食堂]{"entity": "object_type", "value": "canteen"}
       - 天大有哪些[食堂]{"entity": "object_type", "value": "canteen"}
       - 天大有什么[服务型建筑]{"entity": "object_type", "value": "service_building"}
@@ -89,8 +89,8 @@ nlu:
       - 有什么[娱乐场所]{"entity": "object_type", "value": "entertainment"}
       - 有哪些[娱乐]{"entity": "object_type", "value": "entertainment"}
       - 有哪些[娱乐场所]{"entity": "object_type", "value": "entertainment"}
-      - 有什么[学院]{"entity": "object_type", "value": "department"}
-      - 有哪些[学院]{"entity": "object_type", "value": "department"}
+      - 有什么[学院]{"entity": "object_type", "value": "college"}
+      - 有哪些[学院]{"entity": "object_type", "value": "college"}
       - 有什么[食堂]{"entity": "object_type", "value": "canteen"}
       - 有哪些[食堂]{"entity": "object_type", "value": "canteen"}
       - 有什么[餐厅]{"entity": "object_type", "value": "canteen"}
@@ -165,7 +165,7 @@ nlu:
     examples: |
       - 健身房
 
-  - lookup: department
+  - lookup: college
     examples: |
       - 智能与计算学部
       - 化工学院
