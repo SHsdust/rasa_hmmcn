@@ -1,7 +1,0 @@
-{
-  "rule_only_slots": [],
-  "rule_only_loops": [
-    "reserve_service_form",
-    "reserve_form"
-  ]
-}
