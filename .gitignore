@@ -1,0 +1,4 @@
+.rasa/
+log/
+models/
+profile.db
