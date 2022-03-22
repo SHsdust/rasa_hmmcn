@@ -33,3 +33,7 @@ rules:
     steps:
       - intent: faq
       - action: utter_faq
+  - rule: query knowledge base
+    steps:
+      - intent: query_knowledge_base
+      - action: action_query_kb

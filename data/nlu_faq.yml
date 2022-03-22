@@ -250,7 +250,7 @@ nlu:
 
   - intent: faq/nursing_51
     examples: |
-      没事，不用预约。那如果老人后来的身体情况有变化，他的护理等级还会重新评估吗？
+      - 没事，不用预约。那如果老人后来的身体情况有变化，他的护理等级还会重新评估吗？
 
   - intent: faq/nursing_52
     examples: |

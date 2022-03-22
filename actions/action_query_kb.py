@@ -33,7 +33,7 @@ class ActionQueryKB(ActionQueryKnowledgeBase):
         return "action_query_kb"
 
     def __init__(self):
-        filepath = os.path.join(os.path.dirname(os.path.abspath(r'.')), 'data/data.json')
+        filepath = os.path.join(os.path.dirname(os.path.abspath(r'.')), 'rasa_hmmcn/data/data.json')
 
         self.knowledge_base = InMemoryKnowledgeBase(filepath)
 
@@ -46,12 +46,6 @@ class ActionQueryKB(ActionQueryKnowledgeBase):
         super().__init__(self.knowledge_base)
 
     def run(
-            self,
-            dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: "DomainDict",
-    ) -> List[Dict[Text, Any]]:
-    async def run(
             self,
             dispatcher: CollectingDispatcher,
             tracker: Tracker,

@@ -75,7 +75,7 @@ class ProfileDB:
         )
         available_room_id = [j.room_id for i in room for j in i]
         print('get_room_available', available_room_id)
-        room_id = list(filter(lambda obj: obj not not in available_room_id, self.room_id))
+        room_id = list(filter(lambda obj: obj not in available_room_id, self.room_id))
         print("room_id", room_id)
         return room_id
     def add_room_order(self, people, room_id, date, start, end, topic):
@@ -125,7 +125,7 @@ class CheckUserReservation(Action):
             dispatcher.utter_message("您还没有进行过预订")
         for room in rooms:
             message = (
-                f"会议室:{room['room_id']}, 开始时间:{room['start']}, 结束时间:{room['end']}, 会议主题:{room['topic]}"
+                f"会议室号:{room['room_name']}，开始时间:{room['start']}，结束时间:{room['end']}，会议标题:{room['reason']}"
             )
             dispatcher.utter_message(message)
         return []
@@ -270,7 +270,10 @@ class ValidateCheckAvailableRoomForm(FormValidationAction):
 
 
 class ValidateReserveRoomForm(FormValidationAction):
-    def name(
+    def name(self) -> Text:
+        return "validate_reserve_room_form"
+
+    def run(
             self,
             value: Text,
             dispatcher: CollectingDispatcher,
