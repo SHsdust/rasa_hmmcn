@@ -45,7 +45,7 @@ class ActionQueryKB(ActionQueryKnowledgeBase):
 
         super().__init__(self.knowledge_base)
 
-    def run(
+    async def run(
             self,
             dispatcher: CollectingDispatcher,
             tracker: Tracker,

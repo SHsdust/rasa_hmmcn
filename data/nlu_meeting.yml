@@ -26,7 +26,6 @@ nlu:
   - intent: check_reservation
     examples: |
       - 能看下预约记录吗
-      - 我预约的会场地点在哪里？
       - 小天。帮我查查我的会场是哪个？
       - 查看
       - 查看我的预定
@@ -35,7 +34,6 @@ nlu:
       - 查看我预订的会议室
   - intent: check_room_available
     examples: |
-      - 还有，看看北洋园下午四点的文学院[二九零](room_id)报告厅有空吗
       - 现在还有哪些会议室是空的
       - 哪些是空的
       - 哪些是空闲的
